@@ -1,0 +1,3 @@
+C:/Users/ASUS/CLionProjects/rubikscube/cmake-build-debug/CMakeFiles/rubikscube.dir
+C:/Users/ASUS/CLionProjects/rubikscube/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/CLionProjects/rubikscube/cmake-build-debug/CMakeFiles/rebuild_cache.dir
