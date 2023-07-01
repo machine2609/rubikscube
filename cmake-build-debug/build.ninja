@@ -49,8 +49,26 @@ cmake_ninja_workdir = C$:/Users/ASUS/CLionProjects/rubikscube/cmake-build-debug/
 
 build cmake_object_order_depends_target_rubikscube: phony || CMakeFiles/rubikscube.dir
 
-build CMakeFiles/rubikscube.dir/Models/main.cpp.obj: CXX_COMPILER__rubikscube_Debug C$:/Users/ASUS/CLionProjects/rubikscube/Models/main.cpp || cmake_object_order_depends_target_rubikscube
-  DEP_FILE = CMakeFiles\rubikscube.dir\Models\main.cpp.obj.d
+build CMakeFiles/rubikscube.dir/Models/RubiksCube.cpp.obj: CXX_COMPILER__rubikscube_Debug C$:/Users/ASUS/CLionProjects/rubikscube/Models/RubiksCube.cpp || cmake_object_order_depends_target_rubikscube
+  DEP_FILE = CMakeFiles\rubikscube.dir\Models\RubiksCube.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubikscube.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubikscube.dir\Models
+
+build CMakeFiles/rubikscube.dir/Models/RubiksCube3dArray.cpp.obj: CXX_COMPILER__rubikscube_Debug C$:/Users/ASUS/CLionProjects/rubikscube/Models/RubiksCube3dArray.cpp || cmake_object_order_depends_target_rubikscube
+  DEP_FILE = CMakeFiles\rubikscube.dir\Models\RubiksCube3dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubikscube.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubikscube.dir\Models
+
+build CMakeFiles/rubikscube.dir/Models/RubiksCube1dArray.cpp.obj: CXX_COMPILER__rubikscube_Debug C$:/Users/ASUS/CLionProjects/rubikscube/Models/RubiksCube1dArray.cpp || cmake_object_order_depends_target_rubikscube
+  DEP_FILE = CMakeFiles\rubikscube.dir\Models\RubiksCube1dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubikscube.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubikscube.dir\Models
+
+build CMakeFiles/rubikscube.dir/Models/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__rubikscube_Debug C$:/Users/ASUS/CLionProjects/rubikscube/Models/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_rubikscube
+  DEP_FILE = CMakeFiles\rubikscube.dir\Models\RubiksCubeBitboard.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\rubikscube.dir
   OBJECT_FILE_DIR = CMakeFiles\rubikscube.dir\Models
@@ -63,7 +81,7 @@ build CMakeFiles/rubikscube.dir/Models/main.cpp.obj: CXX_COMPILER__rubikscube_De
 #############################################
 # Link the executable rubikscube.exe
 
-build rubikscube.exe: CXX_EXECUTABLE_LINKER__rubikscube_Debug CMakeFiles/rubikscube.dir/Models/main.cpp.obj
+build rubikscube.exe: CXX_EXECUTABLE_LINKER__rubikscube_Debug CMakeFiles/rubikscube.dir/Models/RubiksCube.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCube3dArray.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCube1dArray.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCubeBitboard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rubikscube.dir
