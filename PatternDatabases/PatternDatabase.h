@@ -4,7 +4,7 @@
 
 #ifndef RUBIKSCUBE_PATTERNDATABASE_H
 #define RUBIKSCUBE_PATTERNDATABASE_H
-#include "../Model/RubiksCube.h"
+#include "../Models/RubiksCube.h"
 #include "NibbleArray.h"
 #include "bits/stdc++.h"
 
