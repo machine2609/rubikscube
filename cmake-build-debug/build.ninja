@@ -73,6 +73,12 @@ build CMakeFiles/rubikscube.dir/Models/RubiksCubeBitboard.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\rubikscube.dir
   OBJECT_FILE_DIR = CMakeFiles\rubikscube.dir\Models
 
+build CMakeFiles/rubikscube.dir/main.cpp.obj: CXX_COMPILER__rubikscube_Debug C$:/Users/ASUS/CLionProjects/rubikscube/main.cpp || cmake_object_order_depends_target_rubikscube
+  DEP_FILE = CMakeFiles\rubikscube.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubikscube.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubikscube.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target rubikscube
@@ -81,7 +87,7 @@ build CMakeFiles/rubikscube.dir/Models/RubiksCubeBitboard.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable rubikscube.exe
 
-build rubikscube.exe: CXX_EXECUTABLE_LINKER__rubikscube_Debug CMakeFiles/rubikscube.dir/Models/RubiksCube.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCube3dArray.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCube1dArray.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCubeBitboard.cpp.obj
+build rubikscube.exe: CXX_EXECUTABLE_LINKER__rubikscube_Debug CMakeFiles/rubikscube.dir/Models/RubiksCube.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCube3dArray.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCube1dArray.cpp.obj CMakeFiles/rubikscube.dir/Models/RubiksCubeBitboard.cpp.obj CMakeFiles/rubikscube.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rubikscube.dir

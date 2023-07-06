@@ -1,7 +1,7 @@
 //
 // Created by ASUS on 02-07-2023.
 //
-include "RubiksCube.h"
+#include "RubiksCube.h"
 
 class RubiksCubeBitboard : public RubiksCube {
 
@@ -392,5 +392,11 @@ public:
 
         return ret;
     }
+    struct HashBitboard {
+        size_t operator()(const RubiksCubeBitboard &r1) const {
+            uint64_t final_hash = r1.bitboard[0];
+            for (int i = 1; i < 6; i++) final_hash ^= r1.bitboard[i];
+            return (size_t) final_hash;
+        }
 
 };

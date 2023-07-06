@@ -248,4 +248,10 @@ public:
         }
         return *this;
     }
+    struct Hash1d {
+        size_t operator()(const RubiksCube1dArray &r1) const {
+            string str = "";
+            for (int i = 0; i < 54; i++) str += r1.cube[i];
+            return hash<string>()(str);
+        }
 };

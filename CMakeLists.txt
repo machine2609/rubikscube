@@ -3,4 +3,4 @@ project(rubikscube)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(rubikscube Models/RubiksCube.cpp Models/RubiksCube.h Models/RubiksCube3dArray.cpp Models/RubiksCube1dArray.cpp Models/RubiksCubeBitboard.cpp)
+add_executable(rubikscube Models/RubiksCube.cpp Models/RubiksCube.h Models/RubiksCube3dArray.cpp Models/RubiksCube1dArray.cpp Models/RubiksCubeBitboard.cpp main.cpp solver/DFSsolver.h solver/BFSsolver.h solver/IDDFSsolver.h)
